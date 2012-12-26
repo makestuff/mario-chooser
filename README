@@ -1,0 +1,12 @@
+------------------------------ MARIOCART CHOOSER -------------------------------
+
+A firmware for an AT90USB162 which drives a 20x4 LCD. It randomly assigns four
+characters to each of the four players, and randomly chooses four of the 32
+tracks in the game. Pointless, but fun.
+
+The connections are described here:
+
+http://www.makestuff.eu/wordpress/electronics/nanduino/20x4-lcd-display/
+
+Apart from the LCD, you just need a button attached between PD7 and GND, which
+"spins" the randomiser.
